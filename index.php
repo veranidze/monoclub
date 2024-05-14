@@ -1,25 +1,12 @@
+<?php setcookie("FBpixel", $_GET["fbpixel"], time()+60*60*24); ?>
+fbq('init', '<?=$_GET["1084739509261488"]?>');
 <!DOCTYPE html><html data-scrapbook-source="https://t.me/bombayclub_bot" data-scrapbook-create="20240514202253219" data-scrapbook-title="Telegram: Contact @bombayclub_bot"><head>
     <meta charset="UTF-8">
     <title>Telegram: Contact @bombayclub_bot</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1084739509261488');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1084739509261488&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->    
+
+    
 <meta property="og:title" content="BOMBAY POKER CLUB">
 <meta property="og:image" content="https://cdn4.cdn-telegram.org/file/A-D8-LuHllaCVTuGgzrrTpBzsl4-9FGrrf0lzIrroxNVZGQ4Hj_bsTIDFkuveelOLUwwzhYANfVDoRx9fW-27nF1WoHZNJwEmwmrzakVMHyUD8UmDvULb1RE23zLph9zAXUobs5ErjMcHmc1VF0OH7NrhzB9ySEsxPs-D4jSTSYMJ3oTk_PJ8MpCHJtSH7u5lo9xRZidca6OfBi490Ra3NV77ygBBSjBUWRJUCvvZl0kJhj-kb183ZkfvP9b2a5Iw5FezHeOESKaOhxvDcFCrIHBFnE8Rnv3kbhIJJIDwYiDPFuh4N2ANtTenLYZ-tzV9VVJF_2Dn5vs43NUPlTptg.jpg">
 <meta property="og:site_name" content="Telegram">
